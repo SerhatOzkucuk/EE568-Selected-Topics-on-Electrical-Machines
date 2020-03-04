@@ -1,5 +1,5 @@
 $begin 'CacheDataVersion'
-	DataVersion=6
+	DataVersion=8
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
@@ -40,5 +40,31 @@ $begin 'InterrogationCache'
 				Valid=true
 			$end 'BoundingBox'
 		$end '185'
+		$begin '198'
+			$begin 'Properties'
+				Volume='0'
+				Area='300'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: -62.5, -15, 0]
+				High[3: -52.5, 15, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '198'
+		$begin '211'
+			$begin 'Properties'
+				Volume='0'
+				Area='300'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: -37.5, -15, 0]
+				High[3: -27.5, 15, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '211'
 	$end 'BodyCaches'
 $end 'InterrogationCache'
