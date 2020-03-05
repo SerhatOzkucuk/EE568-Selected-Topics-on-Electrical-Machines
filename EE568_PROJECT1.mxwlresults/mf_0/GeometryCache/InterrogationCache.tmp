@@ -1,9 +1,10 @@
 $begin 'CacheDataVersion'
-	DataVersion=8
+	DataVersion=75
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
 	$begin 'VariableValues'
+		angleteta='360deg'
 	$end 'VariableValues'
 	$begin 'ValidationStatus'
 		$begin 'Options'
@@ -66,5 +67,18 @@ $begin 'InterrogationCache'
 				Valid=true
 			$end 'BoundingBox'
 		$end '211'
+		$begin '234'
+			$begin 'Properties'
+				Volume='0'
+				Area='11702.432634621979'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: -86.032778078668514, -61.032778078668514, 0]
+				High[3: 36.032778078668514, 61.032778078668514, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '234'
 	$end 'BodyCaches'
 $end 'InterrogationCache'

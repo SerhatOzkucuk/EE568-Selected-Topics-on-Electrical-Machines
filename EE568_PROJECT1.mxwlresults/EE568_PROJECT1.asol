@@ -1,34 +1,574 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002020, month=000000000003, day=000000000004, hour=000000000017, min=000000000054, sec=000000000052)
+    time(year=000000002020, month=000000000003, day=000000000006, hour=000000000001, min=000000000048, sec=000000000017)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000000701, lin=000000000017, lvl=000000000000)
+    $index$(pos=000000020860, lin=000000000543, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
+$begin 'OptimetricsResult1'
+	vi('angleteta', '0deg', '0deg', '0deg')
+	gver(0)
+	ev(45, 225)
+	var(0.000000000000000e+000)
+	gvs(0.000000000000000e+000)
+	var(7.853981633974483e-001)
+	gvs(7.853981633974483e-001)
+	var(1.570796326794897e+000)
+	gvs(1.570796326794897e+000)
+	var(2.356194490192345e+000)
+	gvs(2.356194490192345e+000)
+	var(3.141592653589793e+000)
+	gvs(3.141592653589793e+000)
+	var(3.926990816987241e+000)
+	gvs(3.926990816987241e+000)
+	var(4.712388980384690e+000)
+	gvs(4.712388980384690e+000)
+	var(5.497787143782138e+000)
+	gvs(5.497787143782138e+000)
+	var(6.283185307179586e+000)
+	gvs(6.283185307179586e+000)
+$end 'OptimetricsResult1'
 $begin 'SolutionBlock1'
 	ProductName='Maxwell 2D'
 	CircuitName='EE568_PROJECT1'
-	VersionID=32
+	VersionID=74
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=34
+	NextUniqueID=278
 	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=46)
+		Map(V='angleteta=\'0deg\'', ID=103)
+		Map(V='angleteta=\'105deg\'', ID=242)
+		Map(V='angleteta=\'120deg\'', ID=148)
+		Map(V='angleteta=\'135deg\'', ID=243)
+		Map(V='angleteta=\'144deg\'', ID=149)
+		Map(V='angleteta=\'150deg\'', ID=244)
+		Map(V='angleteta=\'15deg\'', ID=238)
+		Map(V='angleteta=\'165deg\'', ID=245)
+		Map(V='angleteta=\'168deg\'', ID=150)
+		Map(V='angleteta=\'180deg\'', ID=246)
+		Map(V='angleteta=\'192deg\'', ID=151)
+		Map(V='angleteta=\'195deg\'', ID=247)
+		Map(V='angleteta=\'210deg\'', ID=248)
+		Map(V='angleteta=\'216deg\'', ID=152)
+		Map(V='angleteta=\'225deg\'', ID=249)
+		Map(V='angleteta=\'240deg\'', ID=153)
+		Map(V='angleteta=\'24deg\'', ID=144)
+		Map(V='angleteta=\'255deg\'', ID=250)
+		Map(V='angleteta=\'264deg\'', ID=154)
+		Map(V='angleteta=\'270deg\'', ID=251)
+		Map(V='angleteta=\'285deg\'', ID=252)
+		Map(V='angleteta=\'288deg\'', ID=155)
+		Map(V='angleteta=\'300deg\'', ID=253)
+		Map(V='angleteta=\'30deg\'', ID=239)
+		Map(V='angleteta=\'312deg\'', ID=156)
+		Map(V='angleteta=\'315deg\'', ID=254)
+		Map(V='angleteta=\'330deg\'', ID=255)
+		Map(V='angleteta=\'336deg\'', ID=157)
+		Map(V='angleteta=\'345deg\'', ID=256)
+		Map(V='angleteta=\'360deg\'', ID=158)
+		Map(V='angleteta=\'45deg\'', ID=104)
+		Map(V='angleteta=\'48deg\'', ID=145)
+		Map(V='angleteta=\'60deg\'', ID=240)
+		Map(V='angleteta=\'72deg\'', ID=146)
+		Map(V='angleteta=\'75deg\'', ID=241)
+		Map(V='angleteta=\'90deg\'', ID=105)
+		Map(V='angleteta=\'96deg\'', ID=147)
+	$end 'VariationIDs'
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=103, Ver=74, Dir='DV103_V74.imesh/')
+		M(VID=104, Ver=74, Dir='DV104_V74.imesh/')
+		M(VID=105, Ver=74, Dir='DV105_V74.imesh/')
+		M(VID=158, Ver=74, Dir='DV158_V74.imesh/')
+		M(VID=243, Ver=74, Dir='DV243_V74.imesh/')
+		M(VID=246, Ver=74, Dir='DV246_V74.imesh/')
+		M(VID=249, Ver=74, Dir='DV249_V74.imesh/')
+		M(VID=251, Ver=74, Dir='DV251_V74.imesh/')
+		M(VID=254, Ver=74, Dir='DV254_V74.imesh/')
+	$end 'InitialMeshes'
 	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=103, Ver=74, Dir='DV103_MI0_V74.sd/')
+			MI(VID=104, Ver=74, Dir='DV104_MI0_V74.sd/')
+			MI(VID=105, Ver=74, Dir='DV105_MI0_V74.sd/')
+			MI(VID=158, Ver=74, Dir='DV158_MI0_V74.sd/')
+			MI(VID=243, Ver=74, Dir='DV243_MI0_V74.sd/')
+			MI(VID=246, Ver=74, Dir='DV246_MI0_V74.sd/')
+			MI(VID=249, Ver=74, Dir='DV249_MI0_V74.sd/')
+			MI(VID=251, Ver=74, Dir='DV251_MI0_V74.sd/')
+			MI(VID=254, Ver=74, Dir='DV254_MI0_V74.sd/')
+		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock1'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=43, Instance=\'SetupDefinition\', Solution=-1, VersionID=74)'='SolutionBlock10'
+	'SolutionKey(SimSetup=43, Instance=\'SolutionDefinition\', Solution=44, VersionID=225)'='SolutionBlock22'
+	'SolutionKey(SimSetup=43, Instance=\'SolutionDefinition\', Solution=45, VersionID=225)'='SolutionBlock23'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'0deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock11'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'135deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock24'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'180deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock25'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'225deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock26'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'270deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock27'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'315deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock28'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'360deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock29'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'45deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock12'
+	'SolutionKey(SimSetup=43, Instance=\'angleteta=\\\'90deg\\\'\', Solution=-3, VersionID=74)'='SolutionBlock13'
 $end 'BlockMapName'
+$begin 'SolutionBlock10'
+	SimSetupID=43
+	SimSetupName='Setup1'
+	VersionID=74
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(122, 1, 127, 2, 128, 3, 129, 4, 168, 5, 169, 6, 194, 7, 195, 8)
+		$begin 'DataMap'
+			VID=103
+			Ver=74
+			M(DblID=194, Dir='DV103_S43_V74.cmesh194/')
+			M(DblID=195, Dir='DV103_S43_V74.cmesh195/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=104
+			Ver=74
+			M(DblID=194, Dir='DV104_S43_V74.cmesh194/')
+			M(DblID=195, Dir='DV104_S43_V74.cmesh195/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=105
+			Ver=74
+			M(DblID=194, Dir='DV105_S43_V74.cmesh194/')
+			M(DblID=195, Dir='DV105_S43_V74.cmesh195/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=158
+			Ver=74
+			M(DblID=128, Dir='DV158_S43_V74.cmesh128/')
+			M(DblID=129, Dir='DV158_S43_V74.cmesh129/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=243
+			Ver=74
+			M(DblID=128, Dir='DV243_S43_V74.cmesh128/')
+			M(DblID=129, Dir='DV243_S43_V74.cmesh129/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=246
+			Ver=74
+			M(DblID=128, Dir='DV246_S43_V74.cmesh128/')
+			M(DblID=129, Dir='DV246_S43_V74.cmesh129/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=249
+			Ver=74
+			M(DblID=128, Dir='DV249_S43_V74.cmesh128/')
+			M(DblID=129, Dir='DV249_S43_V74.cmesh129/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=251
+			Ver=74
+			M(DblID=128, Dir='DV251_S43_V74.cmesh128/')
+			M(DblID=129, Dir='DV251_S43_V74.cmesh129/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=254
+			Ver=74
+			M(DblID=128, Dir='DV254_S43_V74.cmesh128/')
+			M(DblID=129, Dir='DV254_S43_V74.cmesh129/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'MeshOps'
+		OPS(VID=103, Ver=74, ID=0)
+		OPS(VID=104, Ver=74, ID=0)
+		OPS(VID=105, Ver=74, ID=0)
+		OPS(VID=158, Ver=74, ID=0)
+		OPS(VID=243, Ver=74, ID=0)
+		OPS(VID=246, Ver=74, ID=0)
+		OPS(VID=249, Ver=74, ID=0)
+		OPS(VID=251, Ver=74, ID=0)
+		OPS(VID=254, Ver=74, ID=0)
+	$end 'MeshOps'
+	$begin 'LastPassNumbers'
+		LP(VID=103, Ver=74, P=7)
+		LP(VID=104, Ver=74, P=7)
+		LP(VID=105, Ver=74, P=7)
+		LP(VID=158, Ver=74, P=3)
+		LP(VID=243, Ver=74, P=3)
+		LP(VID=246, Ver=74, P=3)
+		LP(VID=249, Ver=74, P=3)
+		LP(VID=251, Ver=74, P=3)
+		LP(VID=254, Ver=74, P=3)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=103, Ver=74, File='DV103_S43_V74.profile')
+		P(VID=104, Ver=74, File='DV104_S43_V74.profile')
+		P(VID=105, Ver=74, File='DV105_S43_V74.profile')
+		P(VID=148, Ver=74, File='DV148_S43_V74.profile')
+		P(VID=153, Ver=74, File='DV153_S43_V74.profile')
+		P(VID=158, Ver=74, File='DV158_S43_V74.profile')
+		P(VID=238, Ver=74, File='DV238_S43_V74.profile')
+		P(VID=239, Ver=74, File='DV239_S43_V74.profile')
+		P(VID=240, Ver=74, File='DV240_S43_V74.profile')
+		P(VID=241, Ver=74, File='DV241_S43_V74.profile')
+		P(VID=242, Ver=74, File='DV242_S43_V74.profile')
+		P(VID=243, Ver=74, File='DV243_S43_V74.profile')
+		P(VID=244, Ver=74, File='DV244_S43_V74.profile')
+		P(VID=245, Ver=74, File='DV245_S43_V74.profile')
+		P(VID=246, Ver=74, File='DV246_S43_V74.profile')
+		P(VID=247, Ver=74, File='DV247_S43_V74.profile')
+		P(VID=248, Ver=74, File='DV248_S43_V74.profile')
+		P(VID=249, Ver=74, File='DV249_S43_V74.profile')
+		P(VID=250, Ver=74, File='DV250_S43_V74.profile')
+		P(VID=251, Ver=74, File='DV251_S43_V74.profile')
+		P(VID=252, Ver=74, File='DV252_S43_V74.profile')
+		P(VID=253, Ver=74, File='DV253_S43_V74.profile')
+		P(VID=254, Ver=74, File='DV254_S43_V74.profile')
+		P(VID=255, Ver=74, File='DV255_S43_V74.profile')
+		P(VID=256, Ver=74, File='DV256_S43_V74.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=103, Ver=74, Dir='DV103_S43_MI0_V74.sd/')
+			MI(VID=104, Ver=74, Dir='DV104_S43_MI0_V74.sd/')
+			MI(VID=105, Ver=74, Dir='DV105_S43_MI0_V74.sd/')
+			MI(VID=158, Ver=74, Dir='DV158_S43_MI0_V74.sd/')
+			MI(VID=243, Ver=74, Dir='DV243_S43_MI0_V74.sd/')
+			MI(VID=246, Ver=74, Dir='DV246_S43_MI0_V74.sd/')
+			MI(VID=249, Ver=74, Dir='DV249_S43_MI0_V74.sd/')
+			MI(VID=251, Ver=74, Dir='DV251_S43_MI0_V74.sd/')
+			MI(VID=254, Ver=74, Dir='DV254_S43_MI0_V74.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'THM'
+		NextUniqueID=2
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			THM(VID=103, Ver=0, Dir='DV103_S43_THM_V0.sd/')
+			THM(VID=104, Ver=0, Dir='DV104_S43_THM_V0.sd/')
+			THM(VID=105, Ver=0, Dir='DV105_S43_THM_V0.sd/')
+		$end 'SubData'
+	$end 'THM'
+	$begin 'MeshGeomInfo'
+		MGI(VID=103, Ver=74, Dir='DV103_S43_V74_MGI/')
+		MGI(VID=104, Ver=74, Dir='DV104_S43_V74_MGI/')
+		MGI(VID=105, Ver=74, Dir='DV105_S43_V74_MGI/')
+		MGI(VID=158, Ver=74, Dir='DV158_S43_V74_MGI/')
+		MGI(VID=243, Ver=74, Dir='DV243_S43_V74_MGI/')
+		MGI(VID=246, Ver=74, Dir='DV246_S43_V74_MGI/')
+		MGI(VID=249, Ver=74, Dir='DV249_S43_V74_MGI/')
+		MGI(VID=251, Ver=74, Dir='DV251_S43_V74_MGI/')
+		MGI(VID=254, Ver=74, Dir='DV254_S43_V74_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock10'
+$begin 'SolutionBlock22'
+	SolutionName='AdaptivePass'
+	SolutionID=44
+	V=225
+	$begin 'States'
+		F(VID=103, Ver=225)
+		F(VID=104, Ver=225)
+		F(VID=105, Ver=225)
+		F(VID=158, Ver=225)
+		F(VID=243, Ver=225)
+		F(VID=246, Ver=225)
+		F(VID=249, Ver=225)
+		F(VID=251, Ver=225)
+		F(VID=254, Ver=225)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PAR'
+		NextUniqueID=10
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=5
+			PAR(VID=103, Ver=5, File='DV103_SOL44_PAR0_V5.sd')
+			PAR(VID=104, Ver=5, File='DV104_SOL44_PAR0_V5.sd')
+			PAR(VID=105, Ver=5, File='DV105_SOL44_PAR0_V5.sd')
+			PAR(VID=158, Ver=5, File='DV158_SOL44_PAR0_V5.sd')
+			PAR(VID=243, Ver=5, File='DV243_SOL44_PAR0_V5.sd')
+			PAR(VID=246, Ver=5, File='DV246_SOL44_PAR0_V5.sd')
+			PAR(VID=249, Ver=5, File='DV249_SOL44_PAR0_V5.sd')
+			PAR(VID=251, Ver=5, File='DV251_SOL44_PAR0_V5.sd')
+			PAR(VID=254, Ver=5, File='DV254_SOL44_PAR0_V5.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=5
+			PAR(VID=103, Ver=5, File='DV103_SOL44_PAR1_V5.sd')
+			PAR(VID=104, Ver=5, File='DV104_SOL44_PAR1_V5.sd')
+			PAR(VID=105, Ver=5, File='DV105_SOL44_PAR1_V5.sd')
+			PAR(VID=158, Ver=5, File='DV158_SOL44_PAR1_V5.sd')
+			PAR(VID=243, Ver=5, File='DV243_SOL44_PAR1_V5.sd')
+			PAR(VID=246, Ver=5, File='DV246_SOL44_PAR1_V5.sd')
+			PAR(VID=249, Ver=5, File='DV249_SOL44_PAR1_V5.sd')
+			PAR(VID=251, Ver=5, File='DV251_SOL44_PAR1_V5.sd')
+			PAR(VID=254, Ver=5, File='DV254_SOL44_PAR1_V5.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=103, Ver=225, File='DV103_SOL44_NFSP10_V225.sd')
+			NFSP(VID=104, Ver=225, File='DV104_SOL44_NFSP10_V225.sd')
+			NFSP(VID=105, Ver=225, File='DV105_SOL44_NFSP10_V225.sd')
+			NFSP(VID=158, Ver=225, File='DV158_SOL44_NFSP10_V225.sd')
+			NFSP(VID=243, Ver=225, File='DV243_SOL44_NFSP10_V225.sd')
+			NFSP(VID=246, Ver=225, File='DV246_SOL44_NFSP10_V225.sd')
+			NFSP(VID=249, Ver=225, File='DV249_SOL44_NFSP10_V225.sd')
+			NFSP(VID=251, Ver=225, File='DV251_SOL44_NFSP10_V225.sd')
+			NFSP(VID=254, Ver=225, File='DV254_SOL44_NFSP10_V225.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock22'
+$begin 'SolutionBlock23'
+	SolutionName='LastAdaptive'
+	SolutionID=45
+	V=225
+	$begin 'States'
+		F(VID=103, Ver=225)
+		F(VID=104, Ver=225)
+		F(VID=105, Ver=225)
+		F(VID=158, Ver=225)
+		F(VID=243, Ver=225)
+		F(VID=246, Ver=225)
+		F(VID=249, Ver=225)
+		F(VID=251, Ver=225)
+		F(VID=254, Ver=225)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(126, -1)
+		$begin 'DataMap'
+			VID=103
+			Ver=225
+			Field(DblID=126, Dir='DV103_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=104
+			Ver=225
+			Field(DblID=126, Dir='DV104_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=105
+			Ver=225
+			Field(DblID=126, Dir='DV105_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=158
+			Ver=225
+			Field(DblID=126, Dir='DV158_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=243
+			Ver=225
+			Field(DblID=126, Dir='DV243_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=246
+			Ver=225
+			Field(DblID=126, Dir='DV246_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=249
+			Ver=225
+			Field(DblID=126, Dir='DV249_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=251
+			Ver=225
+			Field(DblID=126, Dir='DV251_SOL45_V225.Field126/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=254
+			Ver=225
+			Field(DblID=126, Dir='DV254_SOL45_V225.Field126/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PAR'
+		NextUniqueID=10
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=5
+			PAR(VID=103, Ver=5, File='DV103_SOL45_PAR0_V5.sd')
+			PAR(VID=104, Ver=5, File='DV104_SOL45_PAR0_V5.sd')
+			PAR(VID=105, Ver=5, File='DV105_SOL45_PAR0_V5.sd')
+			PAR(VID=158, Ver=5, File='DV158_SOL45_PAR0_V5.sd')
+			PAR(VID=243, Ver=5, File='DV243_SOL45_PAR0_V5.sd')
+			PAR(VID=246, Ver=5, File='DV246_SOL45_PAR0_V5.sd')
+			PAR(VID=249, Ver=5, File='DV249_SOL45_PAR0_V5.sd')
+			PAR(VID=251, Ver=5, File='DV251_SOL45_PAR0_V5.sd')
+			PAR(VID=254, Ver=5, File='DV254_SOL45_PAR0_V5.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=5
+			PAR(VID=103, Ver=5, File='DV103_SOL45_PAR1_V5.sd')
+			PAR(VID=104, Ver=5, File='DV104_SOL45_PAR1_V5.sd')
+			PAR(VID=105, Ver=5, File='DV105_SOL45_PAR1_V5.sd')
+			PAR(VID=158, Ver=5, File='DV158_SOL45_PAR1_V5.sd')
+			PAR(VID=243, Ver=5, File='DV243_SOL45_PAR1_V5.sd')
+			PAR(VID=246, Ver=5, File='DV246_SOL45_PAR1_V5.sd')
+			PAR(VID=249, Ver=5, File='DV249_SOL45_PAR1_V5.sd')
+			PAR(VID=251, Ver=5, File='DV251_SOL45_PAR1_V5.sd')
+			PAR(VID=254, Ver=5, File='DV254_SOL45_PAR1_V5.sd')
+		$end 'SubData'
+	$end 'PAR'
+$end 'SolutionBlock23'
+$begin 'SolutionBlock24'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=14960, de_ee='(0.099473, N/A)', te=3.560148356255354, p=1, ee=0.09947280155833387)
+	c(tri=19448, de_ee='(0.035364, 0.062527)', te=3.562374424846543, p=2, ee=0.03536445021550368, de=0.06252741089503355)
+	c(tri=25288, de_ee='(0.014294, 0.015359)', te=3.562921582184784, p=3, ee=0.01429391341190152, de=0.01535934388100565)
+$end 'SolutionBlock24'
+$begin 'SolutionBlock25'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=14778, de_ee='(0.055648, N/A)', te=5.343487276808594, p=1, ee=0.0556482139824148)
+	c(tri=19212, de_ee='(0.0074588, 0.046945)', te=5.345995777490054, p=2, ee=0.007458773372845899, de=0.04694501084240766)
+	c(tri=24976, de_ee='(0.0069912, 0.010142)', te=5.346537949397012, p=3, ee=0.006991164130395592, de=0.01014164487823102)
+$end 'SolutionBlock25'
+$begin 'SolutionBlock26'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=14890, de_ee='(0.08726, N/A)', te=3.560155934784133, p=1, ee=0.08725963339564902)
+	c(tri=19360, de_ee='(0.037449, 0.060536)', te=3.56231111253946, p=2, ee=0.03744860607198215, de=0.06053604939802034)
+	c(tri=25178, de_ee='(0.013672, 0.017574)', te=3.562937142217172, p=3, ee=0.0136718550389191, de=0.01757369465872221)
+$end 'SolutionBlock26'
+$begin 'SolutionBlock27'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=15308, de_ee='(0.072663, N/A)', te=1.792919177179919, p=1, ee=0.07266327023805333)
+	c(tri=19902, de_ee='(0.032018, 0.14427)', te=1.795505774104141, p=2, ee=0.03201751641721125, de=0.1442673466346553)
+	c(tri=25874, de_ee='(0.01896, 0.047051)', te=1.796350583730635, p=3, ee=0.0189595528111798, de=0.04705134556954106)
+$end 'SolutionBlock27'
+$begin 'SolutionBlock28'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=14932, de_ee='(0.086568, N/A)', te=3.560009574328708, p=1, ee=0.08656785558467983)
+	c(tri=19414, de_ee='(0.035692, 0.066184)', te=3.56236572778775, p=2, ee=0.03569244104760688, de=0.06618390793195821)
+	c(tri=25244, de_ee='(0.014295, 0.015461)', te=3.56291649503708, p=3, ee=0.01429525195147159, de=0.01546071603579926)
+$end 'SolutionBlock28'
+$begin 'SolutionBlock29'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=14668, de_ee='(0.056931, N/A)', te=5.343364606198516, p=1, ee=0.05693076805561405)
+	c(tri=19070, de_ee='(0.019228, 0.050077)', te=5.346040424797109, p=2, ee=0.01922770200648314, de=0.05007740994296518)
+	c(tri=24792, de_ee='(0.0073839, 0.0096236)', te=5.346554905152515, p=3, ee=0.007383946669774983, de=0.009623577723424101)
+$end 'SolutionBlock29'
+$begin 'SolutionBlock13'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(de_ee='(0.073391, N/A)', tri=15340, te=1.843260730398763, p=1, ee=0.07339065757456297)
+	c(de_ee='(0.034056, 0.14983)', tri=19944, te=1.846022477536189, p=2, ee=0.03405569502277926, de=0.1498294349724848)
+	c(de_ee='(0.020018, 2.5599)', tri=25928, te=1.893279589708684, p=3, ee=0.02001792943063335, de=2.559942403061466)
+	c(de_ee='(0.010296, 0.029993)', tri=33708, te=1.893847433629946, p=4, ee=0.01029634708095173, de=0.02999260776637661)
+	c(de_ee='(0.0088384, 4.3828)', tri=43822, te=1.810843942003384, p=5, ee=0.008838380848434819, de=4.382797164788976)
+	c(de_ee='(0.0050232, 0.0095651)', tri=56971, te=1.811017151015351, p=6, ee=0.005023245040988374, de=0.009565098788964456)
+	c(de_ee='(0.0036241, 0.75858)', tri=74066, te=1.797279140273118, p=7, ee=0.003624100788566024, de=0.7585798254053588)
+$end 'SolutionBlock13'
+$begin 'SolutionBlock12'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(de_ee='(0.070627, N/A)', tri=14860, te=3.776773094617433, p=1, ee=0.07062668824904589)
+	c(de_ee='(0.035261, 0.060439)', tri=19320, te=3.779055727947113, p=2, ee=0.03526145405142525, de=0.06043872037038928)
+	c(de_ee='(0.021848, 5.1603)', tri=25128, te=3.974064835112403, p=3, ee=0.0218483774707061, de=5.160260160313223)
+	c(de_ee='(0.017853, 0.03421)', tri=32672, te=3.97542436633517, p=4, ee=0.01785250546287349, de=0.03421009166119927)
+	c(de_ee='(0.0094145, 10.341)', tri=42516, te=3.564326479859029, p=5, ee=0.009414452212887968, de=10.34098120335063)
+	c(de_ee='(0.0056289, 0.014159)', tri=55291, te=3.564831163724, p=6, ee=0.005628895138798109, de=0.01415930521019827)
+	c(de_ee='(0.0013494, 0.028947)', tri=71922, te=3.563799250452678, p=7, ee=0.001349396971153613, de=0.02894704472466283)
+$end 'SolutionBlock12'
+$begin 'SolutionBlock11'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='3'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(de_ee='(0.05474, N/A)', tri=14710, te=5.885432815907267, p=1, ee=0.05473983881453063)
+	c(de_ee='(0.0324, 0.039571)', tri=19124, te=5.887761713964264, p=2, ee=0.03240011949324345, de=0.0395705486723509)
+	c(de_ee='(0.024986, 8.2707)', tri=24862, te=6.374718590697913, p=3, ee=0.0249860037686086, de=8.270662102012592)
+	c(de_ee='(0.015149, 0.030503)', tri=32322, te=6.376663041474326, p=4, ee=0.01514943319127227, de=0.03050253511190219)
+	c(de_ee='(0.0088158, 15.74)', tri=42020, te=5.372999444038101, p=5, ee=0.008815804798997422, de=15.7396367176424)
+	c(de_ee='(0.0053692, 0.010876)', tri=54626, te=5.373583809660998, p=6, ee=0.005369212639084215, de=0.01087596656176139)
+	c(de_ee='(0.00096124, 0.49883)', tri=71014, te=5.346778642868021, p=7, ee=0.0009612400579446497, de=0.4988322084934268)
+$end 'SolutionBlock11'
+$begin 'OptimetricsResults'
+	'0:0'='OptimetricsResult1'
+$end 'OptimetricsResults'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=630, lin=14, lvl=0)
-		SolutionBlock1(pos=370, lin=1, lvl=0)
+		OptimetricsResults(pos=20778, lin=540, lvl=0)
+		SolutionBlock24(pos=14765, lin=429, lvl=0)
+		SolutionBlock25(pos=15277, lin=440, lvl=0)
+		SolutionBlock26(pos=15792, lin=451, lvl=0)
+		SolutionBlock27(pos=16301, lin=462, lvl=0)
+		SolutionBlock28(pos=16809, lin=473, lvl=0)
+		SolutionBlock29(pos=17319, lin=484, lvl=0)
+		BlockMapName(pos=3728, lin=100, lvl=0)
+		OptimetricsResult1(pos=370, lin=1, lvl=0)
+		SolutionBlock22(pos=9901, lin=263, lvl=0)
+		SolutionBlock23(pos=12114, lin=329, lvl=0)
+		SolutionBlock10(pos=5120, lin=115, lvl=0)
+		SolutionBlock1(pos=1009, lin=24, lvl=0)
+		SolutionBlock13(pos=17835, lin=495, lvl=0)
+		SolutionBlock12(pos=18819, lin=510, lvl=0)
+		SolutionBlock11(pos=19799, lin=525, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=701, lin=17, lvl=0)
+		$index$(pos=20860, lin=543, lvl=0)
 	$end '$index$'
 $end '$index$'
