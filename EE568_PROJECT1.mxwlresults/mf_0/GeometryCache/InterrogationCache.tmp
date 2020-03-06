@@ -1,10 +1,10 @@
 $begin 'CacheDataVersion'
-	DataVersion=75
+	DataVersion=84
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
 	$begin 'VariableValues'
-		angleteta='360deg'
+		angleteta='225deg'
 	$end 'VariableValues'
 	$begin 'ValidationStatus'
 		$begin 'Options'
@@ -22,8 +22,8 @@ $begin 'InterrogationCache'
 				Valid=true
 			$end 'Properties'
 			$begin 'BoundingBox'
-				Low[3: -10, -12, 0]
-				High[3: 10, 12, 0]
+				Low[3: -11.927121508644991, -11.927121508644991, 0]
+				High[3: 11.927121508644991, 11.927121508644992, 0]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'
